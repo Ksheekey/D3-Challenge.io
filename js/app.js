@@ -30,7 +30,7 @@ function makeResponsive() {
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
   
   // Data
-  d3.csv("data.csv").then(function(censusData) {
+  d3.csv("./js/data.csv").then(function(censusData) {
   
       // converting to integers
       censusData.forEach(function(d) {
